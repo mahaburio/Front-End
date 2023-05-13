@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    padding: 0 15px;
+    background-color: #1482adaf;
+}
+
+.navbar-section{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-section .logo{
+
+}
+
+.navbar-section .logo > a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ======= navbar-link ======= */
+
+.navbar-link > ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.navbar-link .navbar-item{
+    margin-right: 10px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    /* background-color: green; */
+    border: 2px solid #000a;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.navbar-link .navbar-item:hover{
+    background-color: #000a;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.navbar-link .navbar-item:hover a{
+    color: #fff;
+}
+
+.navbar-link .navbar-item > a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    height: 100%;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+}
+
+.navbar-link .navbar-item > ul{
+    list-style: none;
+}
+
+
